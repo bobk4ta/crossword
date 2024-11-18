@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced Crossword Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>CrosswordGame</h1>
+      <div id="timer" class="timer">Time: 00:00</div>
+      <div id="score" class="score">Score: 0</div>
+    </header>
+    <main class="app-main">
+      <section class="crossword-container">
+        <div id="board-container" class="board"></div>
+      </section>
+      <section class="clues-container">
+        <h2>Clues</h2>
+        <div class="clues">
+          <div>
+            <h3>Across</h3>
+            <ul id="clues-across"></ul>
+          </div>
+          <div>
+            <h3>Down</h3>
+            <ul id="clues-down"></ul>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="validate-btn" class="control-btn">Validate</button>
+          <button id="reveal-btn" class="control-btn">Reveal</button>
+          <button id="reset-btn" class="control-btn">Reset</button>
+        </div>
+      </section>
+    </main>
+    <footer class="app-footer">
+      <p>BG</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
